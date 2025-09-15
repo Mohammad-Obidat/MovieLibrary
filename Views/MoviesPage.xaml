@@ -1,0 +1,35 @@
+<Page x:Class="MovieLibrary.Views.MoviesPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="Movies">
+    <Grid Margin="12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="0,0,0,8">
+            <Button Content="Delete the selected movie" Click="BtnDelete_Click" Margin="0,0,8,0"/>
+        </StackPanel>
+
+        <ListView Grid.Row="1" x:Name="ListViewMovies" ItemsSource="{Binding Movies}" SelectedItem="{Binding SelectedMovie, Mode=TwoWay}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Cover" Width="90">
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Image Source="{Binding CoverImageUrl}" Width="60" Height="90"/>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+                    </GridViewColumn>
+
+                    <GridViewColumn Header="Title" DisplayMemberBinding="{Binding Title}" Width="200"/>
+                    <GridViewColumn Header="Director" DisplayMemberBinding="{Binding Director}" Width="140"/>
+                    <GridViewColumn Header="Year" DisplayMemberBinding="{Binding Year}" Width="70"/>
+                    <GridViewColumn Header="Genre" DisplayMemberBinding="{Binding Genre}" Width="120"/>
+                    <GridViewColumn Header="Rating" DisplayMemberBinding="{Binding Rating}" Width="70"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Page>
