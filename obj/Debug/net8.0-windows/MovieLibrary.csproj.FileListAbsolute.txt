@@ -18,6 +18,8 @@ C:\Users\mohmdSalah\Desktop\MovieLibrary\obj\Debug\net8.0-windows\Views\MoviesPa
 C:\Users\mohmdSalah\Desktop\MovieLibrary\obj\Debug\net8.0-windows\App.g.cs
 C:\Users\mohmdSalah\Desktop\MovieLibrary\obj\Debug\net8.0-windows\MovieLibrary_Content.g.cs
 C:\Users\mohmdSalah\Desktop\MovieLibrary\obj\Debug\net8.0-windows\MovieLibrary_MarkupCompile.cache
+C:\Users\mohmdSalah\Desktop\MovieLibrary\obj\Debug\net8.0-windows\MovieLibrary_MarkupCompile.lref
+C:\Users\mohmdSalah\Desktop\MovieLibrary\obj\Debug\net8.0-windows\App.baml
 C:\Users\mohmdSalah\Desktop\MovieLibrary\obj\Debug\net8.0-windows\MovieLibrary.g.resources
 C:\Users\mohmdSalah\Desktop\MovieLibrary\obj\Debug\net8.0-windows\MovieLibrary.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\mohmdSalah\Desktop\MovieLibrary\obj\Debug\net8.0-windows\MovieLibrary.AssemblyInfoInputs.cache

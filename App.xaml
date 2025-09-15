@@ -4,6 +4,34 @@
              xmlns:local="clr-namespace:MovieLibrary"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <Style x:Key="ModernButtonStyle" TargetType="Button">
+            <Setter Property="Background" Value="#FF2196F3"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Setter Property="Template">
+             <Setter.Value>
+                 <ControlTemplate TargetType="Button">
+                     <Border x:Name="border" CornerRadius="12" Background="{TemplateBinding Background}">
+                         <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                     </Border>
+                     <ControlTemplate.Triggers>
+                         <Trigger Property="IsMouseOver" Value="True">
+                             <Setter TargetName="border" Property="Background" Value="#FF64B5F6"/>
+                         </Trigger>
+                         <Trigger Property="IsPressed" Value="True">
+                                <Setter TargetName="border" Property="Background" Value="#FF1976D2"/>
+                            </Trigger>
+                          <Trigger Property="IsEnabled" Value="False">
+                                <Setter TargetName="border" Property="Background" Value="Gray"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+             </Setter.Value>
+            </Setter>
+        </Style>
     </Application.Resources>
+
 </Application>

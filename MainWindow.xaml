@@ -4,16 +4,19 @@
         Title="Movie Library" Height="600" Width="900">
     <DockPanel>
         <!-- Navigation Bar -->
-        <Grid DockPanel.Dock="Top" Background="#FF2D2D30" Height="50">
+        <Grid DockPanel.Dock="Top" Background="#FF2D2D30" Height="70">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="Auto" />
             </Grid.ColumnDefinitions>
 
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Grid.Column="0">
-                <Button x:Name="BtnHome" Content="Show Movies" Width="120" Margin="8" Click="BtnHome_Click"/>
-                <Button x:Name="BtnAdd" Content="Add Movie" Width="120" Margin="8" Click="BtnAdd_Click"/>
-                <Button x:Name="BtnAbout" Content="About" Width="120" Margin="8" Click="BtnAbout_Click"/>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Left" Margin="10">
+                <Button x:Name="BtnHome" Content="Show Movies" Width="120" Height="25" Margin="8" Click="BtnHome_Click"
+                    Style="{StaticResource ModernButtonStyle}"/>
+                <Button x:Name="BtnAdd" Content="Add Movie" Width="120" Height="25" Margin="8" Click="BtnAdd_Click"
+                    Style="{StaticResource ModernButtonStyle}"/>
+                <Button x:Name="BtnAbout" Content="About" Width="120" Height="25" Margin="8" Click="BtnAbout_Click"
+                    Style="{StaticResource ModernButtonStyle}"/>
             </StackPanel>
 
             <TextBlock Grid.Column="1"
