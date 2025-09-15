@@ -1,8 +1,15 @@
+C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\Avatar.jpg
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\default.jpg
+C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\Gladiator.jpg
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\Inception.jpg
+C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\Interstellar.jpg
+C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\Parasite.jpg
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\ResurrectionErtugrul.jpg
+C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\TheDarkKnight.jpg
+C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\TheGodfather.jpg
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\TheMatrix.jpg
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\TheShawshankRedemption.jpg
+C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\Titanic.jpg
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\MovieLibrary.exe
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\MovieLibrary.deps.json
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\MovieLibrary.runtimeconfig.json
