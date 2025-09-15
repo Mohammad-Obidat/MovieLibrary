@@ -3,6 +3,7 @@ using System.Windows;
 using System.Windows.Controls;
 using MovieLibrary.ViewModels;
 using MovieLibrary.Models;
+using Microsoft.Win32;
 
 namespace MovieLibrary.Views
 {
@@ -33,13 +34,15 @@ namespace MovieLibrary.Views
             {
                 coverFile = "pack://application:,,,/Assets/default.jpg";
             }
+            else if (System.IO.File.Exists(coverFile))
+            {
+                coverFile = new Uri(coverFile).AbsoluteUri;
+            }
             else
             {
-                if (!coverFile.StartsWith("Assets/"))
-                    coverFile = System.IO.Path.Combine("Assets", coverFile);
-
-                coverFile = $"pack://application:,,,/{coverFile}";
+                coverFile = "pack://application:,,,/Assets/default.jpg";
             }
+
 
             var m = new Movie
             {
@@ -58,6 +61,21 @@ namespace MovieLibrary.Views
 
             TxtTitle.Text = TxtDirector.Text = TxtYear.Text = TxtGenre.Text =
                 TxtDuration.Text = TxtRating.Text = TxtCoverUrl.Text = "";
+        }
+
+        private void BtnBrowse_Click(object sender, RoutedEventArgs e)
+        {
+            var dlg = new OpenFileDialog
+            {
+                Title = "Select Cover Image",
+                Filter = "Image Files|*.jpg;*.jpeg;*.png;*.bmp;*.gif",
+                InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.MyPictures)
+            };
+
+            if (dlg.ShowDialog() == true)
+            {
+                TxtCoverUrl.Text = dlg.FileName;
+            }
         }
     }
 }

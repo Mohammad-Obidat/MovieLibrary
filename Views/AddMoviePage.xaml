@@ -20,8 +20,11 @@
             <TextBox x:Name="TxtDuration" />
             <TextBlock Text="Rating (0-10):" Margin="0,8,0,0"/>
             <TextBox x:Name="TxtRating" />
-            <TextBlock Text="Cover image (URL):" Margin="0,8,0,0"/>
-            <TextBox x:Name="TxtCoverUrl" />
+            <TextBlock Text="Cover image:" Margin="0,8,0,0"/>
+            <StackPanel Orientation="Horizontal">
+                <TextBox x:Name="TxtCoverUrl" Width="200" />
+                <Button Content="Browse..." Margin="5,0,0,0" Click="BtnBrowse_Click"/>
+            </StackPanel>
             <Button Content="Add Movie" Margin="0,12,0,0" Click="BtnAdd_Click"/>
         </StackPanel>
 
