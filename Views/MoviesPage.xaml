@@ -28,7 +28,8 @@
                     <GridViewColumn Header="Cover" Width="90">
                         <GridViewColumn.CellTemplate>
                             <DataTemplate>
-                                <Image Source="{Binding CoverImageUrl}" Width="60" Height="90"/>
+                                <Image Width="60" Height="90" Source="{Binding CoverImageUrl}" 
+                                       Stretch="UniformToFill"/>
                             </DataTemplate>
                         </GridViewColumn.CellTemplate>
                     </GridViewColumn>

@@ -28,14 +28,18 @@ namespace MovieLibrary.Views
             double.TryParse(TxtRating.Text, out double rating);
 
             string coverFile = TxtCoverUrl.Text.Trim();
-            if (!string.IsNullOrEmpty(coverFile))
+
+            if (string.IsNullOrEmpty(coverFile))
             {
-                if (!coverFile.StartsWith("../Assets/"))
+                coverFile = "pack://application:,,,/Assets/default.jpg";
+            }
+            else
+            {
+                if (!coverFile.StartsWith("Assets/"))
                     coverFile = System.IO.Path.Combine("Assets", coverFile);
 
                 coverFile = $"pack://application:,,,/{coverFile}";
             }
-
 
             var m = new Movie
             {
@@ -55,6 +59,5 @@ namespace MovieLibrary.Views
             TxtTitle.Text = TxtDirector.Text = TxtYear.Text = TxtGenre.Text =
                 TxtDuration.Text = TxtRating.Text = TxtCoverUrl.Text = "";
         }
-
     }
 }

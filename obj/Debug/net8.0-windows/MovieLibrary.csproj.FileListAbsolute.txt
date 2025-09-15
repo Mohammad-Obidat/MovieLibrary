@@ -1,3 +1,4 @@
+C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\default.jpg
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\Inception.jpg
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\ResurrectionErtugrul.jpg
 C:\Users\mohmdSalah\Desktop\MovieLibrary\bin\Debug\net8.0-windows\Assets\TheMatrix.jpg
