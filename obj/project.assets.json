@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mohmdSalah\\Desktop\\MovieLibrary\\MovieLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\mohmdSalah\\Documents\\m7md\\أكاديمية القاسمي\\CSharp\\final assignment\\MovieLibrary\\MovieLibrary.csproj",
       "projectName": "MovieLibrary",
-      "projectPath": "C:\\Users\\mohmdSalah\\Desktop\\MovieLibrary\\MovieLibrary.csproj",
+      "projectPath": "C:\\Users\\mohmdSalah\\Documents\\m7md\\أكاديمية القاسمي\\CSharp\\final assignment\\MovieLibrary\\MovieLibrary.csproj",
       "packagesPath": "C:\\Users\\mohmdSalah\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mohmdSalah\\Desktop\\MovieLibrary\\obj\\",
+      "outputPath": "C:\\Users\\mohmdSalah\\Documents\\m7md\\أكاديمية القاسمي\\CSharp\\final assignment\\MovieLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mohmdSalah\\AppData\\Roaming\\NuGet\\NuGet.Config"

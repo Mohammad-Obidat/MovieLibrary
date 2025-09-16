@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\mohmdSalah\\Desktop\\MovieLibrary\\MovieLibrary.csproj": {}
+    "C:\\Users\\mohmdSalah\\Documents\\m7md\\أكاديمية القاسمي\\CSharp\\final assignment\\MovieLibrary\\MovieLibrary.csproj": {}
   },
   "projects": {
-    "c:\\Users\\mohmdSalah\\Desktop\\MovieLibrary\\MovieLibrary.csproj": {
+    "C:\\Users\\mohmdSalah\\Documents\\m7md\\أكاديمية القاسمي\\CSharp\\final assignment\\MovieLibrary\\MovieLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\mohmdSalah\\Desktop\\MovieLibrary\\MovieLibrary.csproj",
+        "projectUniqueName": "C:\\Users\\mohmdSalah\\Documents\\m7md\\أكاديمية القاسمي\\CSharp\\final assignment\\MovieLibrary\\MovieLibrary.csproj",
         "projectName": "MovieLibrary",
-        "projectPath": "c:\\Users\\mohmdSalah\\Desktop\\MovieLibrary\\MovieLibrary.csproj",
+        "projectPath": "C:\\Users\\mohmdSalah\\Documents\\m7md\\أكاديمية القاسمي\\CSharp\\final assignment\\MovieLibrary\\MovieLibrary.csproj",
         "packagesPath": "C:\\Users\\mohmdSalah\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\mohmdSalah\\Desktop\\MovieLibrary\\obj\\",
+        "outputPath": "C:\\Users\\mohmdSalah\\Documents\\m7md\\أكاديمية القاسمي\\CSharp\\final assignment\\MovieLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mohmdSalah\\AppData\\Roaming\\NuGet\\NuGet.Config"

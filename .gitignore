@@ -1,0 +1,52 @@
+# Visual Studio Code
+# VS Code settings
+.vscode/
+.vs/
+
+# Build results
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.cache
+*.pdb
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+
+# Logs
+# Others
+*.dbmdl
+*.bak
+*.log
+*.vspscc
+*.vssscc
+
+# Test results
+TestResults/
+*.trx
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
